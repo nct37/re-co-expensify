@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom';
 const Header = () => (
   <header>
     <h1>Expensify</h1>
-    lokk
     <NavLink to="/" activeClassName="is-active" exact={true}>
       Dashboard
     </NavLink>
