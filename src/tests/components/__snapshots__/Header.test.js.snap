@@ -5,7 +5,6 @@ exports[`should render Header correctly 1`] = `
   <h1>
     Expensify
   </h1>
-  lokk
   <NavLink
     activeClassName="is-active"
     ariaCurrent="true"
