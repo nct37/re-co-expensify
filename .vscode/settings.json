@@ -1,4 +1,6 @@
 {
   "terminal.integrated.fontWeightBold": "normal",
-  "terminal.integrated.fontWeight": "300"
+  "terminal.integrated.fontWeight": "300",
+  "prettier.jsxSingleQuote": true,
+  "prettier.jsxBracketSameLine": true
 }
