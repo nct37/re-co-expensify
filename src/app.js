@@ -34,7 +34,6 @@ ReactDOM.render(<p>Loading...</p>, document.getElementById('app'));
 // Checking authentication state
 firebase.auth().onAuthStateChanged(user => {
   if (user) {
-    console.log('uid', user.uid);
     store.dispatch(login(user.uid));
     store.dispatch(startSetExpenses()).then(() => {
       renderApp();
